@@ -6,7 +6,7 @@
 		</update>
 	</info>
 
-	<element name="Trickery Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_Trickery_DOMAIN">
+	<element name="Trickery Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_TRICKERY_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Make Mischief and Challenge Authority</i></h5>
