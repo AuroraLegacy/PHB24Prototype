@@ -18,7 +18,7 @@
 		<file name="class-fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-fighter.xml" />
 		<file name="class-wizard.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-wizard.xml" />
 		<!-- archetypes -->
-		<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/cleric-trickery.xml" />
+		<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-trickery.xml" />
 		<!-- backgrounds -->
 
 		<!-- items -->
