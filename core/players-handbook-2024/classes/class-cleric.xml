@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="Cleric" type="Class" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_CLERIC">
+	<element name="Cleric" type="Class" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_CLERIC">
 		<description>
 			<p>Clerics draw power from the realms of the gods and harness it to work miracles. Blessed by a deity, a pantheon, or another immortal entity, a Cleric can reach out to the divine magic of the Outer Planes-where gods dwell-and channel it to bolster people and battle foes.</p>
 			<p class="indent">Because their power is a divine gift, Clerics typically associate themselves with temples dedicated to the deity or other immortal force that unlocked their magic. Harnessing divine magic doesn't rely on specific training, yet Clerics might learn prayers and rites that help them draw on power from the Outer Planes.</p>
@@ -121,7 +121,7 @@
 		</multiclass>
 	</element>
 
-	<element name="Spellcasting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
+	<element name="Spellcasting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to cast spells through prayer and meditation. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class's description.</p>
@@ -202,7 +202,7 @@
 		</rules>
 	</element>
 
-	<element name="Divine Order" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER">
+	<element name="Divine Order" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER">
 		<description>
 			<p>You have dedicated yourself to one of the following sacred roles of your choice. You may choose one of the following features to gain:</p>
 			<p class="indent"><i>Protector</i> or <i>Thaumaturge</i></p>
@@ -213,7 +213,7 @@
 		</rules>
 	</element>
 
-	<element name="Protector" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_PROTECTOR">
+	<element name="Protector" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_PROTECTOR">
 		<description>
 			<p class="indent"> <i>Protector.</i> Trained for battle, you gain proiciency with Martial weapons and training with Heavy armor.</p>
 		</description>
@@ -225,7 +225,7 @@
 		</rules>
 	</element>
 
-	<element name="Thaumaturge" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE">
+	<element name="Thaumaturge" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE">
 		<description>
 			<p class="indent"> <i>Thaumaturge</i>. You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).</p>
 		</description>
@@ -240,7 +240,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Bonus (Arcana)" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_ARCANA">
+	<element name="Skill Bonus (Arcana)" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_ARCANA">
 		<description>
 			<p>You add your Wisdom modifier (minimum of +1) to any Arcana check you make.</p>
 			<div class="reference">
@@ -253,7 +253,7 @@
 		</rules>
 	</element>
 
-	<element name="Skill Bonus (Religion)" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_RELIGION">
+	<element name="Skill Bonus (Religion)" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEORDER_THAUMATURGE_RELIGION">
 		<description>
 			<p>You add your Wisdom modifier (minimum of +1) to any Religion check you make.</p>
 			<div class="reference">
@@ -266,7 +266,7 @@
 		</rules>
 	</element>
 
-	<element name="Channel Divinity" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
+	<element name="Channel Divinity" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>You can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.</p>
@@ -286,7 +286,7 @@
 			<grant type="Class Feature" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_DIVINESPARK" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Turn Undead" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD">
+	<element name="Channel Divinity: Turn Undead" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_CHANNELDIVINITY_TURN_UNDEAD</requirements>
 		<description>
 			<p>As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you mustmake a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die.</p>
@@ -300,7 +300,7 @@
 		</rules>
 	</element>
 
-	<element name="Sear Undead" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
+	<element name="Sear Undead" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURNUNDEAD_SEARUNDEAD">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DESTROY_UNDEAD</requirements>
 		<description>
 			<p>Whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of ld8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect.</p>
@@ -314,7 +314,7 @@
 		</rules>
 	</element>
 
-	<element name="Channel Divinity: Divine Spark" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_DIVINESPARK">
+	<element name="Channel Divinity: Divine Spark" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_DIVINESPARK">
 		<description>
 			<p> As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll ld8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).</p>
 			<p class="indent">You roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).</p>
@@ -330,7 +330,7 @@
 		</rules>
 	</element>
 
-	<element name="Cleric Subclass" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CLERICSUBCLASS">
+	<element name="Cleric Subclass" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_CLERICSUBCLASS">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_DOMAIN</requirements>
 		<description>
 			<p>You gain a Cleric subclass of your choice. The Life Domain, Light Domain, Trickery Domain, and War Domain subclasses are detailed after this class's description . A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower.</p>
@@ -341,7 +341,7 @@
 		</rules>
 	</element>
 
-	<element name="Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
+	<element name="Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -356,7 +356,7 @@
 		</rules>
 	</element>
 
-	<element name="Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES">
+	<element name="Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES">
 		<description>
 			<p>Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature);</p>
 			<p class="indent"><i>Divine Strike</i> or <i>Potent Spellcasting</i></p>
@@ -367,7 +367,7 @@
 		</rules>
 	</element>
 
-	<element name="Divine Strike" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_DIVINESTRIKE">
+	<element name="Divine Strike" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_DIVINESTRIKE">
 		<description>
 			<p class="indent"> <i>Divine Strike.</i> Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra ld8 Necrotic or Radiant damage (your choice).</p>
 		</description>
@@ -377,7 +377,7 @@
 		</sheet>
 	</element>
 
-	<element name="Potent Spellcasting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_POTENTSPELLCASTING">
+	<element name="Potent Spellcasting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_BLESSEDSTRIKES_POTENTSPELLCASTING">
 		<description>
 			<p class="indent"> <i>Potent Spellcasting</i>. Add your Wisdom modifier to the damage you deal with any Cleric cantrip.</p>
 		</description>
@@ -391,7 +391,7 @@
 		</rules>
 	</element>
 
-	<element name="Divine Intervention" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
+	<element name="Divine Intervention" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_DIVINE_INTERVENTION</requirements>
 		<description>
 			<p> You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Cleric spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing Material components. You can't use this feature again until you finish a Long Rest. </p>
@@ -403,7 +403,7 @@
 		</sheet>
 	</element>
 
-	<element name="Improved Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" >
+	<element name="Improved Blessed Strikes" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_IMPROVEDBLESSEDSTRIKES" >
 		<description>
 			<p>The option you chose for Blessed Strikes grows more powerful. </p>
 
@@ -414,7 +414,7 @@
 		<sheet display="false" />
 	</element>
 
-	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_EPIC_BOON">
+	<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_EPIC_BOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Fate is recommended.</p>
 		</description>
@@ -424,7 +424,7 @@
 		</rules>
 	</element>
 
-	<element name="Greater Divine Intervention" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_GREATERDIVINEINTERVENTION">
+	<element name="Greater Divine Intervention" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_CLASS_FEATURE_CLERIC_GREATERDIVINEINTERVENTION">
 		<description>
 			<p>You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose <i>Wish</i> when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests. </p>
 		</description>
