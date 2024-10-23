@@ -2,15 +2,15 @@
 <elements>
 	<info>
 		<name>Fighter</name>
-				<description>The Fighter class from the 2024 Player’s Handbook (Prototype).</description>
+				<description>The Fighter class from the 2024 Player’s Handbook.</description>
 
 		<author url="https://dndstore.wizards.com/us/en/product/1001494/2024-player-s-handbook-digital-plus-physical-bundle">Wizards of the Coast</author>
 		<update version="0.0.1">
-			<file name="class-fighter-2024-prototype.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-fighter.xml" />
+			<file name="class-fighter.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/class-fighter.xml" />
 		</update>
 	</info>
 
-	<element name="Fighter" type="Class" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FIGHTER">
+	<element name="Fighter" type="Class" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FIGHTER">
 		<description>
 			<p>Fighters rule many battlefields. Questing knights, royal champions, elite soldiers and hardened mercenaries- as Fighters, they all share an unparalleled prowess with weapons and armor. And they are well acquainted with death, both meting it out and defying it.</p>
 			<p class="indent">Fighters master various weapon techniques, and a well-equipped Fighter always has the right tool at hand for any combat situation. Likewise, a Fighter is adept with every form of armor. Beyond that basic degree of familiarity, each Fighter specilaizes in certain styles of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad ability and extensive specialization makes Fighters superior combatants.</p>
@@ -127,7 +127,7 @@
 		</multiclass>
 	</element>
 
-	<element name="Fighting Style" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE">
+	<element name="Fighting Style" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE</requirements>
 		<description>
 			<p>You have honed your martial prowess and gain a Fighting Style feat of your choice. Defense is recommended.</p>
@@ -159,7 +159,7 @@
 		</rules>
 	</element>
 
-	<element name="Second Wind" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_SECONDWIND">
+	<element name="Second Wind" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_SECONDWIND">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_SECOND_WIND</requirements>
 		<description>
 			<p>You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.</p>
@@ -176,7 +176,7 @@
 		</rules>
 	</element>
 
-	<element name="Weapon Mastery" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_WEAPONMASTERY">
+	<element name="Weapon Mastery" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_WEAPONMASTERY">
 		<description>
 			<p>Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.</p>
 			<p class="indent">When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table. </p>
@@ -193,7 +193,7 @@
 		</rules>
 	</element>
 
-	<element name="Action Surge" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_ACTIONSURGE">
+	<element name="Action Surge" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_ACTIONSURGE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ACTION_SURGE</requirements>
 		<description>
 			<p>You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except for the Magic action.</p>
@@ -205,7 +205,7 @@
 		</sheet>
 	</element>
 
-		<element name="Tactical Mind" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALMIND">
+		<element name="Tactical Mind" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALMIND">
 		<description>
 			<p>You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.</p>
 		</description>
@@ -214,7 +214,7 @@
 		</sheet>
 	</element>
 
-	<element name="Fighter Subclass" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_MARTIALARCHETYPE">
+	<element name="Fighter Subclass" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_MARTIALARCHETYPE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_MARTIAL_ARCHETYPE</requirements>
 		<description>
 			<p>You gain a Fighter subclass of your choice. The Battle Master, Champion, Eldritch Knight and Psi Warrior subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.</p>
@@ -225,7 +225,7 @@
 		</rules>
 	</element>
 
-	<element name="Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
+	<element name="Ability Score Improvement" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_FIGHTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
@@ -242,7 +242,7 @@
 		</rules>
 	</element>
 
-	<element name="Extra Attack" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_EXTRAATTACK">
+	<element name="Extra Attack" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_EXTRAATTACK">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice instead of once, whenever you take the Attack action on your turn.</p>
@@ -260,7 +260,7 @@
 		</rules>
 	</element>
 
-	<element name="Tactical Shift" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALSHIFT">
+	<element name="Tactical Shift" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALSHIFT">
 		<description>
 			<p>Whenever you activate your Second Wind with a Bonus Action, you can move up to half your speed without provoking Opportunity Attacks.</p>
 		</description>
@@ -269,7 +269,7 @@
 		</sheet>
 	</element>
 
-	<element name="Indomitable" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_INDOMITABLE">
+	<element name="Indomitable" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_INDOMITABLE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_INDOMITABLE</requirements>
 		<description>
 			<p>If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.</p>
@@ -286,7 +286,7 @@
 		</rules>
 	</element>
 
-	<element name="Tactical Master" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALMASTER">
+	<element name="Tactical Master" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_TACTICALMASTER">
 		<description>
 			<p>When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap or Slow property for that attack.</p>
 		</description>
@@ -295,7 +295,7 @@
 		</sheet>
 	</element>
 
-	<element name="Studied Attacks" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_STUDIEDATTACKS">
+	<element name="Studied Attacks" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_STUDIEDATTACKS">
 		<description>
 			<p>You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creaure before the end of your next turn.</p>
 		</description>
@@ -304,7 +304,7 @@
 		</sheet>
 	</element>
 
-		<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_EPICBOON">
+		<element name="Epic Boon" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_EPICBOON">
 		<description>
 			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.</p>
 		</description>
@@ -317,7 +317,7 @@
 	</element>
 
 	<!-- Fighting Styles -->
-	<element name="Archery" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
+	<element name="Archery" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
 		<supports>Fighting Style 2024, Fighter, Ranger</supports>
 		<description>
 			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
@@ -342,7 +342,7 @@
 			<stat name="blindsight:range" value="10" bonus="base" />
 		</rules>
 	</element>
-	<element name="Defense" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+	<element name="Defense" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
 		<supports>Fighting Style 2024, Fighter, Paladin, Ranger</supports>
 		<description>
 			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
@@ -354,7 +354,7 @@
 			<stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Defense (Fighting Style)" />
 		</rules>
 	</element>
-	<element name="Dueling" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+	<element name="Dueling" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
 		<supports>Fighting Style 2024, Fighter, Paladin, Ranger</supports>
 		<description>
 			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
@@ -366,7 +366,7 @@
 			<!-- <stat name="melee:damage" value="2" equipped="[primary:any],([secondary:none]||[shield:any])" /> -->
 		</rules>
 	</element>
-	<element name="Great Weapon Fighting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+	<element name="Great Weapon Fighting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
 		<supports>Fighting Style 2024, Fighter, Paladin</supports>
 		<description>
 			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
@@ -375,7 +375,7 @@
 			<description>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</description>
 		</sheet>
 	</element>
-	<element name="Protection" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
+	<element name="Protection" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
 		<supports>Fighting Style 2024, Fighter, Paladin</supports>
 		<description>
 			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
@@ -384,7 +384,7 @@
 			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</description>
 		</sheet>
 	</element>
-	<element name="Two-Weapon Fighting" type="Class Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+	<element name="Two-Weapon Fighting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
 		<supports>Fighting Style, Fighter, Ranger</supports>
 		<description>
 			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
