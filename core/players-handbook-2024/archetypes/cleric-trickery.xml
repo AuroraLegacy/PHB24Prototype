@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
-			<file name="cleric-trickery-2024-prototype.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/class-cleric-2024-prototype.xml" />
+		<update version="0.0.1">
+			<file name="cleric-trickery.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/classes/cleric-trickery.xml" />
 		</update>
 	</info>
 
-	<element name="Trickery Domain" type="Archetype" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_Trickery_DOMAIN">
+	<element name="Trickery Domain" type="Archetype" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_CLERIC_Trickery_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<h5><i>Make Mischief and Challenge Authority</i></h5>
@@ -46,7 +46,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY" level="17"/>
 		</rules>
 	</element>
-	<element name="Blessing of the Trickster" type="Archetype Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
+	<element name="Blessing of the Trickster" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_BLESSING_OF_THE_TRICKSTER</requirements>
 		<description>
 			<p>As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.</p>
@@ -56,7 +56,7 @@
 		</sheet>
 	</element>
 
-	<element name="Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
+	<element name="Channel Divinity: Invoke Duplicity" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY</requirements>
 		<description>
 			<p>As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the Incapacitated condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.</p>
@@ -69,7 +69,7 @@
 		</sheet>
 	</element>
 
-	<element name="Trickster's Transposition" type="Archetype Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION">
+	<element name="Trickster's Transposition" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_TRICKSTER'S_TRANSPOSITION">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS</requirements>
 		<description>
 			<p>Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</p>
@@ -79,7 +79,7 @@
 		</sheet>
 	</element>
 
-	<element name="Improved Duplicity" type="Archetype Feature" source="2024 Player’s Handbook (Prototype)" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
+	<element name="Improved Duplicity" type="Archetype Feature" source="2024 Player’s Handbook" id="ID_WOTC_2024PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_IMPROVED_DUPLICITY">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_CLERIC_TRICKERY_DOMAIN_IMPROVED_DUPLICITY</requirements>
 		<description>
 			<p>The illusion of your Invoke Duplicity has grown more powerful in the following ways.</p>
