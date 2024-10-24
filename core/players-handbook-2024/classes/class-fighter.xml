@@ -155,7 +155,7 @@
 			<p class="indent">At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</p>
 		</description>
 		<rules>
-			<!--Insert new Fighting Style Feat Grants-->
+			<select type="Feat" name="Fighting Style" supports="Fighting Style" />
 		</rules>
 	</element>
 
@@ -189,7 +189,11 @@
 			<stat name="weapon mastery:count" value="4" level="4" bonus="base" />
 			<stat name="weapon mastery:count" value="5" level="10" bonus="base" />	
 			<stat name="weapon mastery:count" value="6" level="16" bonus="base" />	
-			<!--Insert new Weapon Mastery Grants-->
+
+			<select type="Class Feature" name="Weapon Mastery" level="1" supports="Weapon Mastery" number="3"/>
+			<select type="Class Feature" name="Weapon Mastery" level="4" supports="Weapon Mastery" number="1"/>
+			<select type="Class Feature" name="Weapon Mastery" level="10" supports="Weapon Mastery" number="1"/>
+			<select type="Class Feature" name="Weapon Mastery" level="16" supports="Weapon Mastery" number="1"/>
 		</rules>
 	</element>
 
@@ -316,7 +320,7 @@
 		</rules>
 	</element>
 
-	<!-- Fighting Styles -->
+	<!-- old Fighting Styles 
 	<element name="Archery" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
 		<supports>Fighting Style 2024, Fighter, Ranger</supports>
 		<description>
@@ -363,7 +367,7 @@
 			<description>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</description>
 		</sheet>
 		<rules>
-			<!-- <stat name="melee:damage" value="2" equipped="[primary:any],([secondary:none]||[shield:any])" /> -->
+
 		</rules>
 	</element>
 	<element name="Great Weapon Fighting" type="Class Feature" source="2024 Player’s Handbook" id="ID_WOTC_PHB2024_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
@@ -392,7 +396,7 @@
 		<sheet>
 			<description>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</description>
 		</sheet>
-	</element>
+	</element> -->
 
 	<!--Feature Replacement Grants-->
 	<element name="Fighting Style Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_FIGHTER_FIGHTING_STYLE" />
