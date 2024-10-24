@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.9">
-			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/Zencha70/DnDBuilderAuroraSuplements/main/Zencha70/cleric-life.xml" />
+		<update version="0.0.1">
+			<file name="cleric-life.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook-2024/archetypes/cleric-life.xml" />
 		</update>
 	</info>
 
